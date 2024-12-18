@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  canvas {
+    display: block;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    color: white;
+    text-shadow: 0 0 4px rgb(0, 0, 0);
+  }
+  
+  h4 {
+    position: absolute;
+    margin: 0;
+    top: 75px;
+    right: 100px;
+    color: #aaa;
+  }
+  p {
+    position: absolute;
+    margin: 0;
+    top: 100px;
+    right: 100px;
+    color: #aaa;
+  }
+  
+  #game-over {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: red;
+    text-shadow: 0 0 5px black;
+  }
+  
